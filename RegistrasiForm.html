@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>Registrasi</title>
+    </head>
+    <body bgcolor="blue">
+        <form action="contak.php" method="POST">
+            <fieldset>
+                <legend > <h2> Form Registrasi Siswa</h2></legend>
+                <p>
+                    <label>Nama</label><br>
+                    <input type="text" id="nama" placeholder="Nama Lengkap"><br><br>
+                    <label>Username </label><br>
+                    <input type="text" id="username" placeholder="Username"><br><br>
+                    <label>Email</label><br>
+                    <input type="email" id="email" placeholder="Your email"><br><br>
+                    <label>Password</label><br>
+                    <input type="password" name="email" placeholder="8-10 characters"><br><br>
+                    TTL <input type="text" name="tempat" size="10"><br>
+                    <input type="date" size="30" name="ttl" /><br><br>
+                </p>
+                    <label>Jenis kelamin </label>
+                    <label><input type="radio" name="Jenis_kelamin" value="laki-laki" />Laki-laki</label>
+                    <label><input type="radio" name="Jenis_kelamin" value="Perempuan" />Perempuan</label>
+                </p>
+                <p>
+                    <label>Agama</label>
+                    <select name="agama">
+                        <option value="islam">Islam</option>
+                        <option value="Kristen">Kristen</option>
+                        <option value="Katolik">Katolik</option>
+                        <option value="Hindu">Hindu</option>
+                        <option value="Budha">Budha</option>
+                    </select>
+                </p>
+                <p>
+                    <input type="submit" name="submit" value="Daftar" />
+                </p>
+            </fieldset>
+        </form>
+    </body>
+</html>
